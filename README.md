@@ -1,3 +1,3 @@
-DOTA 2 website for our HTML/CSS/JS class.
+DOTA 2 website for our UI/UX class.
 
 Groupwork with Nadine and Raymond. 
