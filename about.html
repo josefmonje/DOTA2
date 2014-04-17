@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A layout example that shows off a responsive product landing page.">
+
+        <title>ABOUT: Dota 2</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A layout example that shows off a responsive product landing page.">
+
+        <link rel="shortcut icon" href="css/img/fav-icon.jpg" type="image/jpg">  
+
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure.css">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/main-grid-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/main-grid.css">
+        <!--<![endif]-->
+
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/marketing.css">
+        <!--<![endif]-->
+    </head>
+<body>
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="./index.html"><img src="css/img/logo.png" alt="" height="50" width="350"></a>
+
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li class="pure-menu-selected" ><a href="./about.html">About</a></li>
+            <li><a href="./heroes.html">Heroes</a></li>
+            <li><a href="./register.html">Register</a></li>
+        </ul>
+    </div>
+</div>
+<br />
+<br />
+<div class="content">
+    <h1 class="content-head is-center">Game Concept</h1>
+
+    <div class="pure-g-r">
+        <div class="l-box pure-u-1-1 is-padding-left-right">
+            <p>
+                Each match of Dota 2 is independent and involves two teams, both containing five players and each occupying a stronghold at either end of the map. Located in each stronghold is a building called the "Ancient"; to win, a team must destroy the enemy's Ancient. Each player controls a "Hero" character and focuses on leveling up, collecting gold, acquiring items and fighting against the other team to achieve victory.
+            </p>                    
+            <p>
+                The game is played with two teams called Radiant and Dire with each team having critical structures called “Ancients”, which are protected by a number of buildings.The bases of the two factions are connected by three main paths called “lanes”, which are guarded by defensive towers, as well as groups of periodically spawning autonomous units called “creeps” that traverse each lane attacking enemy units in range. 
+            </p>
+            <p>
+                Located on the southeast side of the river is a “boss” called “Roshan” who typically takes multiple team members to kill. When Roshan is slain, he drops items that can alter the course of team skirmishes.
+            </p>
+            <p>
+                There are nine standard game modes and 107 "Heroes" in Dota 2. Heroes are strategically powerful player-controlled units with unique special abilities; though many heroes fill similar roles as others, each confers different benefits and limitations to a team.  The Heroes' methods of combat are heavily influenced by their primary property, which can be Strength, Agility, or Intelligence. Most game modes provide teams with some preparation time before the game begins so that they can balance their hero selections, as the composition of the team can significantly affect their performance throughout the match. Because Dota 2 is highly team-oriented, the players must coordinate and plan with each other in order to achieve victory.
+            </p>
+            <p> 
+                Players are given six inventory slots, which are filled by purchasing items using gold, the primary currency of the game. Items vary drastically in function: some merely enhance the statistics of a Hero, while others grant them additional active or passive abilities. Their price varies depending on their relative power. Though gold is granted steadily at a slow rate, the more expensive items are typically only purchased by heroes who can accumulate gold at a much higher rate, usually by efficiently killing enemy creeps, heroes, or structures. 
+            </p>
+            
+        </div>           
+    </div>
+</div>
+
+<!--This is footer-->
+<div class="footer l-box is-center">
+    Copyright 2014 SEA MONSTERS. All Right Reserved.
+</div>
+
+<script src="http://yui.yahooapis.com/3.14.1/build/yui/yui.js"></script>
+<script>
+YUI().use('node-base', 'node-event-delegate', function (Y) {
+    // This just makes sure that the href="#" attached to the <a> elements
+    // don't scroll you back up the page.
+    Y.one('body').delegate('click', function (e) {
+        e.preventDefault();
+    }, 'a[href="#"]');
+});
+</script>
+
+
+
+
+
+</body>
+</html>

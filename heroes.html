@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A layout example that shows off a responsive product landing page.">
+
+        <title>CHARACTERS: Dota 2</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A layout example that shows off a responsive product landing page.">
+
+        <link rel="shortcut icon" href="css/img/fav-icon.jpg" type="image/jpg">  
+
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/main-grid-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/main-grid.css">
+        <!--<![endif]-->
+      
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/marketing.css">
+        <!--<![endif]-->
+<style type="text/css" media="screen">
+h1 {
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.heroicon {
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 50px !important;
+}
+
+.icons {
+    padding-top: 2px;
+    height: 50px !important;
+}
+
+.gallery {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#bg {
+    padding-top: 100px;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    border-radius: 10px;
+    border-color: gray;
+    border-width: 1px;
+}
+#skills {
+    background-color: #2d3e50;
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="./index.html"><img src="css/img/logo.png" alt="" height="40" width="350"></a>
+
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li class="pure-menu-selected"><a href="./heroes.html">Heroes</a></li>
+            <li><a href="./register.html">Register</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="splash-container characters-bg pure-g-r">
+    <div class="pure-u-14-24 gallery">
+        <div class="pure-u-5-12">
+            <div class="pure-u-1-4">
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/tiny_hphover.png" alt="Tiny" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/tiny_avalanche_hp1.png"
+            data-ns1="Avalanche"
+            data-ts1="Bombards an area with rocks, stunning and damaging enemy land units."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/tiny_toss_hp1.png"
+            data-ns2="Toss"
+            data-ts2="Grabs a random unit in a 275 radius around Tiny, friend or enemy, and launches it at the target unit or rune to deal damage where they land. If the tossed unit is an enemy, it will take an extra 20% damage. Toss does more damage as Tiny's size increases."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/tiny_craggy_exterior_hp1.png"
+            data-ns3="Craggy Exterior"
+            data-ts3="Causes damage to bounce back on Tiny's attackers. Enemies that attack Tiny from within 300 units have a chance of being stunned."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/tiny_grow_hp1.png"
+            data-ns4="Grow"
+            data-ts4="Tiny gains craggy mass that increases his power at the cost of his attack speed. Increases Tossed unit damage and improves movement speed."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/tiny_vert.jpg" />
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/antimage_hphover.png" alt="Anti-mage" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/antimage_mana_break_hp1.png"
+            data-ns1="Mana Break"
+            data-ts1="Burns an opponent's mana on each attack. Mana Break deals 60% of the mana burned as damage to the target. Mana Break is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/antimage_blink_hp1.png"
+            data-ns2="Blink"
+            data-ts2="Short distance teleportation that allows Anti-Mage to move in and out of combat."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/antimage_spell_shield_hp1.png"
+            data-ns3="Spell Shield"
+            data-ts3="Increases Anti-Mage's resistance to magic damage."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/antimage_mana_void_hp1.png"
+            data-ns4="Mana Void"
+            data-ts4="For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies. The main target is also mini-stunned."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/antimage_vert.jpg" />
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/zuus_hphover.png" alt="Zeus" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/zuus_arc_lightning_hp1.png"
+            data-ns1="Arc Lightning"
+            data-ts1="Hurls a bolt of lightning that leaps through nearby enemy units."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/zuus_lightning_bolt_hp1.png"
+            data-ns2="Lightning Bolt"
+            data-ts2="Summons a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. Lightning Bolt also provides True Sight around the target in a radius of 900."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/zuus_static_field_hp1.png"
+            data-ns3="Static Field"
+            data-ts3="Zeus shocks all nearby enemy units whenever he casts a spell, causing damage proportional to their current health."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/zuus_thundergods_wrath_hp1.png"
+            data-ns4="Thundergod's Wrath"
+            data-ts4="Strikes all enemy heroes with a bolt of lightning, no matter where they may be. Thundergod's Wrath also provides True Sight around each hero struck. If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/zuus_vert.jpg" />
+            </div>
+            <div class="pure-u-1-4">
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/dragon_knight_hphover.png" alt="Dragon Knight" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/dragon_knight_breathe_fire_hp1.png"
+            data-ns1="Breathe Fire"
+            data-ts1="Unleashes a breath of fire on enemy units in a line in front of Dragon Knight."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/dragon_knight_dragon_tail_hp1.png"
+            data-ns2="Dragon Tail"
+            data-ts2="Dragon Knight smites an enemy unit in melee range with his shield, stunning it while dealing minor damage. When in Elder Dragon Form, the cast range increases to 400."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/dragon_knight_dragon_blood_hp1.png"
+            data-ns3="Dragon Blood"
+            data-ts3="The life blood of the Dragon improves health regeneration and strengthens armor."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/dragon_knight_elder_dragon_form_hp1.png"
+            data-ns4="Elder Dragon Form"
+            data-ts4="Dragon Knight can take the form of three powerful elder dragons. LEVEL 1 - Green Dragon: Short poison damage over time on attack. LEVEL 2 - Red Dragon: Splash damage on attack. LEVEL 3 - Blue Dragon: Splash damage and frost attack that slows enemy units."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/dragon_knight_vert.jpg" />
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/mirana_hphover.png" alt="Mirana" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/mirana_starfall_hp1.png"
+            data-ns1="Starstorm"
+            data-ts1="Calls down a wave of meteors to damage nearby enemy units. One random enemy unit in 175 range will take a second hit for 75% of the damage."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/mirana_arrow_hp1.png"
+            data-ns2="Sacred Arrow"
+            data-ts2="Fires an arrow with deadly precision, dealing large damage and stunning the first enemy unit it strikes. Stun duration increases based on distance to target, ranging from 0.5 to 5 seconds. Bonus damage up to 100 is applied based on distance to target."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/mirana_leap_hp1.png"
+            data-ns3="Leap"
+            data-ts3="Mirana leaps forward into battle, empowering allied units with a ferocious roar that grants bonus attack and movement speed. Speed bonus lasts 10 seconds."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/mirana_invis_hp1.png"
+            data-ns4="Moonlight Shadow"
+            data-ts4="Turns Mirana and all allied heroes invisible. If Invisibility is broken, it will restore after fade delay if the shadow's duration has not expired. Silence will stop Moonlight Shadow."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/mirana_vert.jpg" />
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/furion_hphover.png" alt="Furion" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/furion_sprout_hp1.png"
+            data-ns1="Sprout"
+            data-ts1="Sprouts a ring of trees around a unit, trapping it in place."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/furion_teleportation_hp1.png"
+            data-ns2="Teleportation"
+            data-ts2="Teleports to any point on the map."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/furion_force_of_nature_hp1.png"
+            data-ns3="Nature's Call"
+            data-ts3="Converts an area of trees into Treants. Treants have 550 hit points and deal 21-23 damage."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/furion_wrath_of_nature_hp1.png"
+            data-ns4="Wrath of Nature"
+            data-ts4="Damaging energy bounces around the map, striking enemies close to the cast point that are in vision. Each enemy hit beyond the first adds damage."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/furion_vert.jpg" />
+            </div>
+            <div class="pure-u-1-4">
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/earthshaker_hphover.png" alt="Earthshaker" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/earthshaker_fissure_hp1.png"
+            data-ns1="Fissure"
+            data-ts1="Slams the ground with a mighty totem, fissuring the earth while stunning and damaging enemy units in a line. Creates an impassable ridge of stone."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/earthshaker_enchant_totem_hp1.png"
+            data-ns2="Enchant Totem"
+            data-ts2="Empowers Earthshaker's totem, causing it to deal extra damage on the next attack."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/earthshaker_aftershock_hp1.png"
+            data-ns3="Aftershock"
+            data-ts3="Causes the earth to shake underfoot, adding additional damage and stuns to nearby enemy units when Earthshaker casts his abilities."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/earthshaker_echo_slam_hp1.png"
+            data-ns4="Echo Slam"
+            data-ts4="Shockwaves travel through the ground, damaging enemy units. Each enemy hit causes an echo to damage nearby units."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/earthshaker_vert.jpg" />
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/troll_warlord_hphover.png" alt="Troll Warlord" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/troll_warlord_berserkers_rage_hp1.png"
+            data-ns1="Berserker's Rage"
+            data-ts1="Allows the Warlord to use his throwing axes as melee weapons, gaining bonus damage, attack speed, movement speed, hitpoints, armor, and a chance to bash targets on attack. Berserker's Rage also changes the functionality of Whirling Axes."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/troll_warlord_whirling_axes_ranged_hp1.png"
+            data-is2b="http://cdn.dota2.com/apps/dota2/images/abilities/troll_warlord_whirling_axes_melee_hp1.png"
+            data-ns2="Whirling Axes"
+            data-ts2="When in Ranged mode, Troll hurls a fistful of five axes in a cone shape over 900 range, slowing and damaging enemy units. When in Melee mode, Troll hurls two axes around him in a close range area of effect, damaging enemy units and causing them to miss some attacks."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/troll_warlord_fervor_hp1.png"
+            data-ns3="Fervor"
+            data-ts3="With each continuous blow on the same target, Troll gains increased attack speed. If Troll changes targets, the stacks drop to zero."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/troll_warlord_battle_trance_hp1.png"
+            data-ns4="Battle Trance"
+            data-ts4="Troll's presence on the battlefield increases the attack speed of himself and all allied heroes."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/troll_warlord_vert.jpg" />
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/lina_hphover.png" alt="Lina Inverse" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/lina_dragon_slave_hp1.png"
+            data-ns1="Dragon Slave"
+            data-ts1="Lina channels the breath of a dragon, sending out a wave of fire that scorches every enemy in its path."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/lina_light_strike_array_hp1.png"
+            data-ns2="Light Strike Array"
+            data-ts2="Summons a column of flames that damages and stuns enemies."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/lina_fiery_soul_hp1.png"
+            data-ns3="Fiery Soul"
+            data-ts3="Grants bonus attack and movement speed each time Lina casts a spell. Stacks with itself. Lasts 9 seconds."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/lina_laguna_blade_hp1.png"
+            data-ns4="Laguna Blade"
+            data-ts4="Fires off a bolt of lightning at a single enemy unit, dealing massive damage."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/lina_vert.jpg" />
+            </div>
+        </div>
+        <div class="pure-u-1-24">
+            <img src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_str.png" alt="Strength" class="icons">
+            <img src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_agi.png" alt="Agility" class="icons">
+            <img src="http://cdn.dota2.com/apps/dota2/images/heropedia/overviewicon_int.png" alt="Intelligence" class="icons">
+        </div>
+        <div class="pure-u-5-12">
+            <div class="pure-u-1-4">
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/pudge_hphover.png" alt="Pudge" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/pudge_meat_hook_hp1.png"
+            data-ns1="Meat Hook"
+            data-ts1="Launches a bloody hook at a unit or location. The hook will snag the first unit it encounters, dragging the unit back to Pudge and dealing damage if it is an enemy."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/pudge_rot_hp1.png"
+            data-ns2="Rot"
+            data-ts2="A toxic cloud that deals intense damage and slows movement--harming not only enemy units but Pudge himself."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/pudge_flesh_heap_hp1.png"
+            data-ns3="Flesh Heap"
+            data-ts3="Gives Pudge resistance to magic damage, as well as bonus strength that increases each time Pudge kills an enemy Hero or it dies in his vicinity. Flesh Heap is retroactive, meaning it can gain charges before it is skilled, which then become active."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/pudge_dismember_hp1.png"
+            data-ns4="Dismember"
+            data-ts4="Pudge chows down on an enemy unit, disabling it and dealing damage over time. Lasts 3 seconds on Heroes, 6 seconds on creeps."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/pudge_vert.jpg" />
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/bloodseeker_hphover.png" alt="Bloodseeker" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/bloodseeker_bloodrage_hp1.png"
+            data-ns1="Bloodrage"
+            data-ts1="Drives a unit into a bloodthirsty rage, during which it has higher attack damage, but cannot cast spells and takes damage every second. Bloodrage dispels the target before applying its buff."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/bloodseeker_blood_bath_hp1.png"
+            data-ns2="Blood Bath"
+            data-ts2="Bloodseeker revels in combat, regaining health with every unit he kills or whenever an enemy Hero dies within a 325 radius of Bloodseeker. The health gained is a percentage of the killed unit's maximum HP."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/bloodseeker_thirst_hp1.png"
+            data-ns3="Thirst"
+            data-ts3="Enables Bloodseeker to sense enemy Heroes with health below a certain percentage wherever they are, giving him vision of that unit, increased movement speed and increased damage. Bonuses stack per Hero. Bloodseeker gains True Sight of enemy Heroes below half their visiblity threshold."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/bloodseeker_rupture_hp1.png"
+            data-ns4="Rupture"
+            data-ts4="Causes an enemy unit's skin to rupture, dealing massive damage. If the unit moves while under the effect of Rupture, it takes a percentage of the distance traveled as damage. The damage is dealt through magic immunity."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/bloodseeker_vert.jpg" />
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/lich_hphover.png" alt="Lich" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/lich_frost_nova_hp1.png"
+            data-ns1="Frost Blast"
+            data-ts1="Blasts the target enemy unit with damaging frost, dealing area damage and slowing movement and attack rates for 4 seconds. The primary target takes the most damage."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/lich_frost_armor_hp1.png"
+            data-ns2="Ice Armor"
+            data-ts2="Creates a shield around the target friendly unit, which adds armor and slows attacking units. Has half effect on ranged attackers."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/lich_dark_ritual_hp1.png"
+            data-ns3="Sacrifice"
+            data-ts3="Sacrifices a friendly creep and converts its current hit points into mana for Lich."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/lich_chain_frost_hp1.png"
+            data-ns4="Chain Frost"
+            data-ts4="Releases an orb of frost that bounces up to 10 times, slowing and damaging enemy units. The first target is mini-stunned."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/lich_vert.jpg" />
+            </div>
+            <div class="pure-u-1-4">
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/axe_hphover.png" alt="Axe" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/axe_berserkers_call_hp1.png"
+            data-ns1="Berserker's Call"
+            data-ts1="Axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/axe_battle_hunger_hp1.png"
+            data-ns2="Battle Hunger"
+            data-ts2="Enrages an enemy unit, causing it to be slowed and take damage over time until it kills another unit or the duration ends. Axe gains movement speed for each unit affected with Battle Hunger."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/axe_counter_helix_hp1.png"
+            data-ns3="Counter Helix"
+            data-ts3="When attacked, Axe performs a helix counter attack, dealing damage to all nearby enemies."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/axe_culling_blade_hp1.png"
+            data-ns4="Culling Blade"
+            data-ts4="Axe spots weakness and strikes, dealing moderate damage but instantly killing an enemy unit with low health. When an enemy hero is killed in this way, the cooldown is reset. Axe and nearby allied units gain bonus movement speed."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/axe_vert.jpg" />
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/faceless_void_hphover.png" alt="Faceless Void" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/faceless_void_time_walk_hp1.png"
+            data-ns1="Time Walk"
+            data-ts1="Rushes to a target location while slowing the movement and attack speed of all enemies along its path for 3 seconds."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/faceless_void_backtrack_hp1.png"
+            data-ns2="Backtrack"
+            data-ts2="Faceless Void dodges damage by jumping backward in time, eluding both physical and magical attacks."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/faceless_void_time_lock_hp1.png"
+            data-ns3="Time Lock"
+            data-ts3="Adds the chance for an attack to lock an enemy unit in time, stunning it and dealing bonus damage."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/faceless_void_chronosphere_hp1.png"
+            data-ns4="Chronosphere"
+            data-ts4="Creates a blister in spacetime, trapping all units caught in its sphere of influence and causes you to move very quickly inside it. Only Faceless Void and any units he controls are unaffected. Invisible units in the sphere will be revealed."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/faceless_void_vert.jpg" />
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/queenofpain_hphover.png" alt="Queen of Pain" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/queenofpain_shadow_strike_hp1.png"
+            data-ns1="Shadow Strike"
+            data-ts1="Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed for 15 seconds. An instance of damage is dealt every 3 seconds."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/queenofpain_blink_hp1.png"
+            data-ns2="Blink"
+            data-ts2="Short distance teleportation that allows Queen of Pain to move in and out of combat."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/queenofpain_scream_of_pain_hp1.png"
+            data-ns3="Scream Of Pain"
+            data-ts3="The Queen of Pain lets loose a piercing scream around her, damaging nearby enemies."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/queenofpain_sonic_wave_hp1.png"
+            data-ns4="Sonic Wave"
+            data-ts4="Creates a gigantic wave of sound in front of Queen of Pain, dealing heavy damage to all enemy units in its wake."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/queenofpain_vert.jpg" />
+            </div>
+            <div class="pure-u-1-4">
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/night_stalker_hphover.png" alt="Night Stalker" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/night_stalker_void_hp1.png"
+            data-ns1="Void"
+            data-ts1="Creates a damaging void that slows an enemy unit and deals damage. Void also mini-stuns, interrupting channeling abilities. The slowing effect lasts longer at night."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/night_stalker_crippling_fear_hp1.png"
+            data-ns2="Crippling Fear"
+            data-ts2="Night Stalker horrifies the target enemy Hero, causing it to miss attacks and become silenced. The effect lasts longer at night."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/night_stalker_hunter_in_the_night_hp1.png"
+            data-ns3="Hunter in the Night"
+            data-ts3="Night Stalker is in his element at night, attacking and moving with great swiftness."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/night_stalker_darkness_hp1.png"
+            data-ns4="Darkness"
+            data-ts4="Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. While Darkness is in effect, enemy units have their vision range reduced. When used at night, it extends night time by Darkness' duration. "
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/night_stalker_vert.jpg" />
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/meepo_hphover.png" alt="Meepo" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/meepo_earthbind_hp1.png"
+            data-ns1="Earthbind"
+            data-ts1="Tosses a net at the target point, pinning down all enemy units. Earthbind prevents invisibility, blink, and interrupts channeling."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/meepo_poof_hp1.png"
+            data-ns2="Poof"
+            data-ts2="Drawing mystical energies from the earth, a Meepo can teleport to another Meepo or itself after channeling for 1.5 seconds, dealing damage in both the departure and arrival locations."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/meepo_geostrike_hp1.png"
+            data-ns3="Geostrike"
+            data-ts3="Meepo enchants his weapon to deal damage per second, as well as slow the movement speed of the attacked unit. Geostrikes from multiple Meepos stack."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/meepo_divided_we_stand_hp1.png"
+            data-ns4="Divided We Stand"
+            data-ts4="Meepo summons an imperfect, semi-autonomous duplicate of himself, which can gain gold and experience as he does and shares his experience and abilities. However, the clones cannot wield any items but the boots that Meepo himself wears. If any of the clones die, they all die. Increases the speed at which you respawn. "
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/meepo_vert.jpg" />
+            <img src="http://cdn.dota2.com/apps/dota2/images/heroes/lion_hphover.png" alt="Lion" class="heroicon"
+            data-is1="http://cdn.dota2.com/apps/dota2/images/abilities/lion_impale_hp1.png"
+            data-ns1="Earth Spike"
+            data-ts1="Rock spikes burst from the earth along a straight path. Enemy units are hurled into the air, then are stunned and take damage when they fall."
+            data-is2="http://cdn.dota2.com/apps/dota2/images/abilities/lion_voodoo_hp1.png"
+            data-ns2="Hex"
+            data-ts2="Transforms an enemy unit into a harmless beast, with all special abilities disabled."
+            data-is3="http://cdn.dota2.com/apps/dota2/images/abilities/lion_mana_drain_hp1.png"
+            data-ns3="Mana Drain"
+            data-ts3="Absorbs the magical energies of a target enemy unit by taking mana from it every second."
+            data-is4="http://cdn.dota2.com/apps/dota2/images/abilities/lion_finger_of_death_hp1.png"
+            data-ns4="Finger of Death"
+            data-ts4="Rips at an enemy unit, trying to turn it inside-out. Deals massive damage."
+            data-bg="http://cdn.dota2.com/apps/dota2/images/heroes/lion_vert.jpg" />
+            </div>
+        </div>
+    <div class="pure-u-14-24 content-head is-center">
+        <h1>Choose your Hero</h1>
+    </div>
+    </div>
+    <div id="bg" class="pure-u-10-24"></div>
+</div>
+
+<div class="content-wrapper">
+    <div class="content">
+    <h2 id="heroname" class="is-center"></h2>
+    <div class="pure-g-r is-center">
+        <div class="pure-u-1-4 content">
+            <img id="is1" />
+            <h3 id="ns1"></h3>
+            <p id="ts1"></p>
+        </div>
+        <div class="pure-u-1-4">
+            <img id="is2" />
+            <img id="is2b" />
+            <h3 id="ns2"></h3>
+            <p id="ts2"></p>
+        </div>
+        <div class="pure-u-1-4">
+            <img id="is3" />
+            <h3 id="ns3"></h3>
+            <p id="ts3"></p>
+        </div>
+        <div class="pure-u-1-4">
+            <img id="is4" />
+            <h3 id="ns4"></h3>
+            <p id="ts4"></p>
+        </div>
+    </div>
+</div>
+<div class="footer l-box is-center">
+    Copyright 2014 Sea Monsters Inc. All Right Reserved.
+</div>
+
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script>
+$( document ).ready(function() {
+    $(".gallery").hover(function() {
+        $("#bg").css("background-image", "url('')" );
+        $("#bg").css("border", "none" );
+    });
+    $(".heroicon").hover(function() {
+        $("#bg").css("background-image", "url('" + $(this).attr('data-bg') + "')" );
+        $("#heroname").html( $(this).attr('alt') );
+        $("#is1").attr( "src" , $(this).attr('data-is1') );
+        $("#ns1").html( $(this).attr('data-ns1') );
+        $("#ts1").html( $(this).attr('data-ts1') );
+        $("#is2").attr( "src" , $(this).attr('data-is2') );
+        $("#ns2").html( $(this).attr('data-ns2') );
+        $("#ts2").html( $(this).attr('data-ts2') );
+        $("#is3").attr( "src" , $(this).attr('data-is3') );
+        $("#ns3").html( $(this).attr('data-ns3') );
+        $("#ts3").html( $(this).attr('data-ts3') );
+        $("#is4").attr( "src" , $(this).attr('data-is4') );
+        $("#ns4").html( $(this).attr('data-ns4') );
+        $("#ts4").html( $(this).attr('data-ts4') );
+        $("#bg").css("border", "solid" );
+    });
+});
+</script>
+</body>
+
+</html>
